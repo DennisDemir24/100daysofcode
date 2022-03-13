@@ -21,6 +21,65 @@ body {
   background-color: var(--dark-blue);
 }
 
+.advice-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20rem;
+  border: 1px solid transparent;
+  
+}
+
+h1 {
+  color: var(--light-cyan);
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+span {
+  color: var(--neon-green);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.inner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-gray-blue);
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 40%;
+  font-weight: 800;
+}
+
+.icon-wrapper {
+  border: 1px solid transparent;
+  background: var(--neon-green);
+  border-radius: 50%;
+  position: relative;
+  position: relative;
+  top: 3.8rem;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-wrapper:hover {
+  box-shadow: 0 0 5px var(--neon-green),
+  0 0 20px var(--neon-green),
+  0 0 35px var(--neon-green),
+  0 0 50px var(--neon-green);
+}
+
+.dice-icon {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
