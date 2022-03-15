@@ -1,0 +1,31 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: #000000;
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
+  --hero-img: '/Users/demir/Desktop/React/projects/100daysofcode/loop-studio-design/src/images/desktop/image-hero.jpg';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Alata',
+  'Josefin Sans'
+  sans-serif;
+  font-size: 15px;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
